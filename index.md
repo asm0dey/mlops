@@ -96,9 +96,16 @@ _backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #000 100%)"
 ![bg fit invert brightness](images/debt.png)
 
 ---
+<style scoped>
+p:nth-child(2) {
+    text-align: right
+}
+</style>
 
 <!-- _class: lead -->
-# Google: мы все неправы!
+> # Мы все неправы!
+
+_**Google**_
 
 Потому что не продуктивизируем свой ML код.
 
@@ -114,3 +121,34 @@ _backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #000 100%)"
 * Инструментов тонна
 * Все знают, как продуктизировать разработку
 * Все понимают, где светлое будущее
+
+И конечно же вокруг этого навёрнута тонна практик
+
+---
+<!-- _class: lead -->
+![bg left:45%](https://images.manning.com/book/8/5753b1d-f666-47c4-bddf-189f09d3676f/Smith-OAP-HI.png)
+
+> DevOps isn’t about tools, but about how teams work together
+## Новая книга про анти-паттерны Ops и решения DevOps
+
+---
+<!-- _class: lead -->
+
+### <!-- fit --> Так что, MLOps — это просто DevOps?
+
+# **Нет!**
+
+---
+
+![bg](https://content.altexsoft.com/media/2020/07/word-image-3.png)
+
+---
+
+<!-- _class: lead -->
+# MLOps — это ещё одна ступень специализации
+
+---
+
+# Как устроен ML
+
+![width:1120px ](https://martinfowler.com/articles/cd4ml/ml-axis-of-change.png)
