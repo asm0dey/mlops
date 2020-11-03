@@ -54,31 +54,9 @@ Describe here
 
 <!-- _class: lead -->
 
-<style scoped>
-p:nth-child(2) {
-    text-align: right
-}
-</style>
+# Это доклад о том, что такое MLOps, зачем он нужен и как можно попробовать его делать
 
-![bg right fi](https://math-cs.spbu.ru/wp-content/uploads/2019/10/Bragilevskij-V._2019-400x400.jpg)
-
-> MLOps — это не человек, это практики, основанные на технологиях
-
-
-Эйнштейн
-
----
-<style scoped>
-p:nth-child(2) {
-    text-align: right
-}
-</style>
-
-<!-- _class: lead -->
-
-# Цитатам в интернете всегда можно верить
-
-Особенно от Эйнштейна
+Концепции общие, инструменты меняются
 
 ---
 # <!-- fit --> О древнейшей истории
@@ -151,4 +129,91 @@ _**Google**_
 
 # Как устроен ML
 
+![h:480 shadow](https://martinfowler.com/articles/cd4ml/ml-axis-of-change.png)
+
+---
+
+<!-- _class: lead -->
+
+### И всё это один большой кусок кода!
+
+---
+
+![bg left:30%](https://source.unsplash.com/h9Rx3zOYZws)
+
+
+# А кто такие дата саентисты?
+
+* Data — данные, тут всё понятно.
+  * копаются в реке и находят золото
+* Scientists — учённые. Экспериментаторы
+
+---
+
+![bg brightness:30%](https://source.unsplash.com/JeInkKlI2Po)
+
+# Требования к эксперименту
+
+* Формулирование гипотезы
+* Описание специфических условий
+* Воспроизводимость
+* Протоколирование
+
+---
+
+<!-- _class: lead -->
+
+<style scoped>
+p:nth-child(2) {
+    text-align: right
+}
+</style>
+
+![bg right:40%](https://math-cs.spbu.ru/wp-content/uploads/2019/10/Bragilevskij-V._2019-400x400.jpg)
+
+> MLOps — это это способ сделать эксперименты научным, а не наколеночным
+
+
+Эйнштейн
+
+---
+<style scoped>
+p:nth-child(2) {
+    text-align: right
+}
+</style>
+
+# Я всегда верю цитатам в интернете
+
+![bg brightness:60%](https://source.unsplash.com/8recjlHwCWA)
+
+Курт Кобейн
+
+---
+
+# Как устроен ML
+
 ![width:1120px ](https://martinfowler.com/articles/cd4ml/ml-axis-of-change.png)
+
+---
+
+# Что тут пошло не так?
+
+* Всё одним куском
+* Протокола эксперимента нет
+* Информации об исходных данных нет
+* Результаты меняются от запуска к запуску
+
+---
+
+<!-- 
+_class: invert 
+_color: #000000
+-->
+
+# Что делать?
+
+![bg w:1300](https://martinfowler.com/articles/cd4ml/ml-pipeline-1.png)
+
+---
+![bg fit](images/dvc.png)
