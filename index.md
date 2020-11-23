@@ -61,8 +61,8 @@ Describe here
 ---
 # <!-- fit --> О древнейшей истории
 
-* Буча началась с гиганта
-* И гигантом был Google
+- Буча началась с гиганта
+- И гигантом был Google
 
 https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf
 
@@ -72,6 +72,7 @@ https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-syst
 _backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #000 100%)"
  -->
 ![bg fit invert brightness](images/debt.png)
+
 
 ---
 <style scoped>
@@ -88,6 +89,11 @@ _**Google**_
 Потому что не продуктивизируем свой ML код.
 
 ---
+# ML Pipeline
+
+![bg fit](images/pipe.png)
+
+---
 
 ![bg](images/devops.jpg)
 
@@ -96,9 +102,9 @@ _**Google**_
 # DevOps для обычной разработки
 
 Тем временем в обычной разработке
-* Инструментов тонна
-* Все знают, как продуктизировать разработку
-* Все понимают, где светлое будущее
+- Инструментов тонна
+- Все знают, как продуктизировать разработку
+- Все понимают, где светлое будущее
 
 И конечно же вокруг этого навёрнута тонна практик
 
@@ -144,9 +150,9 @@ _**Google**_
 
 # А кто такие дата саентисты?
 
-* Data — данные, тут всё понятно.
-  * копаются в реке и находят золото
-* Scientists — учённые. Экспериментаторы
+- Data — данные, тут всё понятно.
+  - копаются в реке и находят золото
+- Scientists — учёные. Экспериментаторы
 
 ---
 
@@ -154,10 +160,10 @@ _**Google**_
 
 # Требования к эксперименту
 
-* Формулирование гипотезы
-* Описание специфических условий
-* Воспроизводимость
-* Протоколирование
+- Формулирование гипотезы
+- Описание специфических условий
+- Воспроизводимость
+- Протоколирование
 
 ---
 
@@ -199,10 +205,10 @@ p:nth-child(2) {
 
 # Что тут пошло не так?
 
-* Всё одним куском
-* Протокола эксперимента нет
-* Информации об исходных данных нет
-* Результаты меняются от запуска к запуску
+- Всё одним куском
+- Протокола эксперимента нет
+- Информации об исходных данных нет
+- Результаты меняются от запуска к запуску
 
 ---
 
@@ -216,15 +222,42 @@ _color: #000000
 ![bg w:1300](https://martinfowler.com/articles/cd4ml/ml-pipeline-1.png)
 
 ---
+<!-- _class: lead -->
+# <!-- fit --> Разве это не очевидно?
+# НЕТ!
+
+---
+
+<!-- _color: black -->
+
+# Jupyter
+
+![bg fit](https://user-images.githubusercontent.com/5924038/45263346-5e666980-b430-11e8-822b-e863c8f23686.png)
+
+---
+
+# Jupyter
+
+- Самый популярный (и остаточно удобный) инструмент Data Scientist'а
+- Код вперемешку с Markdown
+- Написан и исполняется в непредсказуемом порядке
+
+![bg fit brightness:30%](https://user-images.githubusercontent.com/5924038/45263346-5e666980-b430-11e8-822b-e863c8f23686.png)
+
+---
+<!-- _class: lead -->
+# <!-- fit --> Придётся переучивать
+
+---
 ![bg fit](images/dvc.png)
 
 ---
 
 # DVC
 
-* Создавался специально в пару к гиту
-* Изначально был похож на LFS (git-lfs)
-* Оброс функциональностью
+- Создавался специально в пару к гиту
+- Изначально был похож на LFS (git-lfs)
+- Оброс функциональностью
 
 ---
 
@@ -258,6 +291,10 @@ dvc diff
 Посмотреть разницу с каким-то состоянием
 
 ---
+
+![bg fit](images/pipe1.png)
+
+---
 <!-- _class: lead -->
 # <!-- fit --> The talk is cheap
 
@@ -269,9 +306,9 @@ dvc diff
 
 # Ок, но это консоль
 
-* Молодёжь :older_man: не любит терминалы
-* Этим неудобно пользоваться при командной разработке
-* С этим неудобно работать тимлиду
+- Молодёжь :older_man: не любит терминалы
+- Этим неудобно пользоваться при командной разработке
+- Тимлиду может быть неудобно работать с метриками
 
 ![bg right:40%](https://source.unsplash.com/wCIDfKBMDHE)
 
@@ -281,16 +318,26 @@ dvc diff
 
 ---
 
-<!-- _class: lead -->
-# <!-- fit --> Ещё маленькое demo
+# Easy
+
+```python
+mlflow.sklearn.autolog()
+remote_server_uri = "http://127.0.0.1:5000"
+mlflow.set_tracking_uri(remote_server_uri)
+mlflow.set_experiment("udemy-courses")
+```
+
+---
+
+![bg](images/mlflow.png)
 
 ---
 
 # Что дальше?
 
-* У нас есть модельки
-* У нас есть каталог моделек
-* Тестируем!
+- У нас есть модельки
+- У нас есть каталог моделек
+- Тестируем!
 
 ---
 
@@ -305,6 +352,9 @@ dvc diff
 Всё это можно делать в целом в любом CI, но!
 
 ---
+![bg fit](images/pipe2.png)
+
+---
 
 # Пайплайны. Возвращение джедаев
 
@@ -312,11 +362,14 @@ dvc diff
 
 На @smartdataconf есть доклад про dagster
 
-Есть и ругие, решения, напрмиер Airflow
+Есть и другие решения, например Airflow
 
 ---
 
 ![bg fit](https://www.bigdataschool.ru/wp-content/uploads/2018/10/Airflow_architecture.png)
+
+---
+![bg fit](images/pipe3.png)
 
 ---
 
@@ -331,8 +384,8 @@ dvc diff
 # MLWatcher
 
 
-* range, mean, std, median, q25, q50, q75, iqr for any continuous values (probabilities, features)
-* count, frequency for any discrete values (labels, classes)
+- range, mean, std, median, q25, q50, q75, iqr for any continuous values (probabilities, features)
+- count, frequency for any discrete values (labels, classes)
 
 Python-агент, который позволяет мониторить *статистические* метрики
 
@@ -371,9 +424,9 @@ Sampling
 
 # Инструменты
 
-* Prometheus
-* Grafana
-* Zabbix etc
+- Prometheus
+- Grafana
+- Zabbix etc
 
 ---
 <!-- _class: lead -->
