@@ -27,7 +27,7 @@ footer {
 # ML: страх и ненависть в продакшне
 
 ### Паша Финкельштейн, JetBrains
-### Михаил Марюфич, ОК.ru
+### Михаил Марюфич, OK.ru
 
 ---
 
@@ -51,7 +51,7 @@ footer {
  - Machine Learning Engineer в OK.ru
  
 
- ![bg right:30% fit](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8lrpi8fqVX53lrbLbtj-MwmfSS4U3XKcWLA&usqp=CAU)
+ ![bg right:30% fit](images/ok.png)
 
  
 ---
@@ -153,7 +153,7 @@ _**Google**_
 _backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #000 100%)"
  -->
 
-![bg center:20 width:870px](images/ds_roles.png)
+![bg width:870px](images/ds_roles.png)
 
 ---
 
@@ -364,7 +364,7 @@ mlflow.set_experiment("udemy-courses")
 ---
 <!-- _color: black -->
 
-## MLFLOW TRACKING 
+## MLFlow Tracking 
 
 ![bg](images/mlflow.png)
 
@@ -399,21 +399,16 @@ mlflow.set_experiment("udemy-courses")
 
 
 # Serve 
-- Есть ML MODEL - это бинарник (.pkl, .pth, .h5)
+* Есть ML MODEL - это бинарник (.pkl, .pth, .h5)
+* Нужно делать к ней запросы
 
 ---
-# Serve 
-- Есть ML MODEL - это бинарник (.pkl, .pth, .h5)
-- Нужно делать к ней запросы
-
-
----
+![bg brightness:60%](images/meme.jpg)
 # Serve 
 - Есть ML MODEL - это бинарник (.pkl, .pth, .h5)
 - Нужно делать к ней запросы
 - И каждый стремится написать свой велосипед =( 
 
-    ![bg brightness:60%](images/meme.jpg)
 --- 
 
 # MLFLOW SERVING
@@ -503,3 +498,13 @@ Sampling
 2. Чтобы построить MLOps надо иметь базовый набор инструментов
 3. Кроме стандартных инструментов есть и непривычные: DVC, MLFlow
 4. Продуктивизация ML — это большой путь, который надо пройти
+
+---
+<!-- 
+_class: lead 
+_footer: ""
+-->
+# <!-- fit --> QA
+
+Паша Финкельштейн: if (:bird:) @asm0di0 else @asm0dey
+Михаил Марюфич: @mikhailmar
