@@ -222,7 +222,7 @@ p:nth-child(2) {
 ![bg fit](images/pipe1.png)
 
 ---
-### Это же билд и тест!
+### Это же билд!
 ![bg fit](images/pipe1.png)
 
 ---
