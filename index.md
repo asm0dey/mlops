@@ -4,7 +4,7 @@ theme: gaia
 size: 4K
 class: default
 paginate: true
-footer: @asm0di0 @SmartDataCon
+footer: @asm0di0 @mikhailmar @SmartDataCon
 backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #293845 100%)"
 color: white
 title: MLOps
@@ -27,7 +27,7 @@ footer {
 # ML: страх и ненависть в продакшне
 
 ### Паша Финкельштейн, JetBrains
-### Михаил Марюфич, ОК
+### Михаил Марюфич, ОК.ru
 
 ---
 
@@ -48,8 +48,12 @@ footer {
 # Михаил Марюфич
 
 
-Describe here
+ - Machine Learning Engineer в OK.ru
+ 
 
+ ![bg right:30% fit](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8lrpi8fqVX53lrbLbtj-MwmfSS4U3XKcWLA&usqp=CAU)
+
+ 
 ---
 
 <!-- _class: lead -->
@@ -80,18 +84,12 @@ p:nth-child(2) {
     text-align: right
 }
 </style>
-
 <!-- _class: lead -->
 > # Мы все неправы!
 
 _**Google**_
 
 Потому что не продуктивизируем свой ML код.
-
----
-# ML Pipeline
-
-![bg fit](images/pipe.png)
 
 ---
 
@@ -141,7 +139,7 @@ _**Google**_
 
 <!-- _class: lead -->
 
-### И всё это один большой кусок кода!
+### И всё это(зачастую) один большой кусок кода!
 
 ---
 
@@ -155,6 +153,16 @@ _**Google**_
 - Scientists — учёные. Экспериментаторы
 
 ---
+Роли в ML разработке
+
+<!-- 
+_backgroundImage: "linear-gradient(to bottom, #000 0%, #1a2028 50%, #000 100%)"
+ -->
+
+![bg center:20 width:870px](images/ds_roles.png)
+
+---
+
 
 ![bg brightness:30%](https://source.unsplash.com/JeInkKlI2Po)
 
@@ -202,7 +210,34 @@ p:nth-child(2) {
 ![width:1120px ](https://martinfowler.com/articles/cd4ml/ml-axis-of-change.png)
 
 ---
+###  ML workflow
+![bg width:900px](images/pipe.png)
 
+---
+## А чем ПРИНЦИПИАЛЬНО отличается от DEVOPS?
+
+![bg center width:800](https://devopedia.org/images/article/54/7602.1513404277.png)
+
+---
+![bg fit](images/pipe1.png)
+
+---
+### Это же билд и тест!
+![bg fit](images/pipe1.png)
+
+---
+### Это же билд!
+![bg fit](images/pipe1.png)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+PS: только очень сложный
+
+--- 
 # Что тут пошло не так?
 
 - Всё одним куском
@@ -329,10 +364,16 @@ mlflow.set_experiment("udemy-courses")
 
 ---
 
+## MLFLOW TRACKING 
+
 ![bg](images/mlflow.png)
 
 ---
+### MLFLOW MODEL REGISTRY
 
+будет тут
+
+---
 # Что дальше?
 
 - У нас есть модельки
@@ -349,29 +390,49 @@ mlflow.set_experiment("udemy-courses")
 2. Коэффициент детерминации
 3. Метрики, специфичные для нашей модели
 
-Всё это можно делать в целом в любом CI, но!
-
----
-![bg fit](images/pipe2.png)
-
----
-
-# Пайплайны. Возвращение джедаев
-
-Специфика ML такова, что нам не надо крутить что-то постоянно
-
-На @smartdataconf есть доклад про dagster
-
-Есть и другие решения, например Airflow
-
----
-
-![bg fit](https://www.bigdataschool.ru/wp-content/uploads/2018/10/Airflow_architecture.png)
+Всё это можно делать в целом в любом CI!
 
 ---
 ![bg fit](images/pipe3.png)
 
 ---
+
+
+# Serve 
+- Есть ML MODEL - это бинарник (.pkl, .pth, .h5)
+
+---
+# Serve 
+- Есть ML MODEL - это бинарник (.pkl, .pth, .h5)
+- Нужно делать к ней запросы
+
+
+---
+# Serve 
+- Есть ML MODEL - это бинарник (.pkl, .pth, .h5)
+- Нужно делать к ней запросы
+- И каждый стремится написать свой велосипед =( 
+
+    ![bg brightness:60%](images/meme.jpg)
+--- 
+
+# MLFLOW SERVING
+
+TODO
+
+--- 
+
+# SELDON CORE
+
+TODO
+
+---
+
+## Show us the demo!
+
+![bg brightness:50%](https://source.unsplash.com/bdBeUfTShtA)
+
+--- 
 
 # Мониторинг
 
