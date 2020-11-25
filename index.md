@@ -137,12 +137,6 @@ _**Google**_
 
 ---
 
-<!-- _class: lead -->
-
-### И всё это(зачастую) один большой кусок кода!
-
----
-
 ![bg left:30%](https://source.unsplash.com/h9Rx3zOYZws)
 
 
