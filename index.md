@@ -342,6 +342,11 @@ dvc diff
 ![bg right:40%](https://source.unsplash.com/wCIDfKBMDHE)
 
 ---
+# Слайд с PR
+
+Вставим здесь, что зато можно делать пуллреквесты с обучением моей модели и держать все под контролем
+
+---
 
 ![bg fit drop-shadow](https://mlflow.org/images/MLflow-logo-final-white-TM.png)
 
@@ -357,6 +362,7 @@ mlflow.set_experiment("udemy-courses")
 ```
 
 ---
+<!-- _color: black -->
 
 ## MLFLOW TRACKING 
 
