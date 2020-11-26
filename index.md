@@ -198,7 +198,6 @@ p:nth-child(2) {
 Курт Кобейн
 
 ---
-
 # Как устроен ML
 
 ![width:1120px ](https://martinfowler.com/articles/cd4ml/ml-axis-of-change.png)
@@ -371,7 +370,33 @@ mlflow.set_experiment("udemy-courses")
 ---
 ### MLFLOW MODEL REGISTRY
 
-будет тут
+![bg fit](https://www.mlflow.org/docs/latest/_images/oss_registry_3_overview.png)
+
+---
+
+Как туда модель может попасть?
+
+![bg fit](https://www.mlflow.org/docs/latest/_images/oss_registry_2_dialog.png)
+
+---
+
+Как туда модель может попасть?
+
+```python
+from mlflow.tracking import MlflowClient
+
+client = MlflowClient()
+client.create_registered_model("sk-learn-random-forest-reg-model")
+```
+
+```python
+client = MlflowClient()
+result = client.create_model_version(
+    name="sk-learn-random-forest-reg-model",
+    source="mlruns/0/d16076a3ec534311817565e6527539c0/artifacts/sklearn-model",
+    run_id="d16076a3ec534311817565e6527539c0"
+)
+```
 
 ---
 # Что дальше?
@@ -413,13 +438,11 @@ mlflow.set_experiment("udemy-courses")
 
 # MLFLOW SERVING
 
-TODO
+![bg fit](images/mlflow-serve.png)
 
 --- 
 
-# SELDON CORE
-
-TODO
+![bg fit](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/doc/source/images/seldon-core-high-level.jpg)
 
 ---
 
@@ -484,7 +507,13 @@ Sampling
 - Grafana
 - Zabbix etc
 
+
 ---
+
+![bg](https://docs.seldon.io/projects/seldon-core/en/v1.1.0/_images/dashboard.png)
+
+---
+
 <!-- _class: lead -->
 # Мониторинг — важнейшая часть продуктивизированного ML
 
