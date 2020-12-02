@@ -41,14 +41,21 @@ footer {
 ![bg right:30% fit](https://plugins.jetbrains.com/files/12494/95821/icon/pluginIcon.svg)
 
 
-*_Big Data Tools — инструмент для упрощения жизни дата инжинеров_
+*_Big Data Tools — инструмент для упрощения жизни дата инженеров_
 
 ---
 
 # Михаил Марюфич
 
 
- - Machine Learning Engineer в OK.ru
+ - Закончил Мат-Мех СПбГУ и Computer Science Center
+
+- Machine Learning Engineer в OK.ru
+
+- Делаю МЛ штуки и внедряю их в продакшен
+
+- Увлекаюсь воспроизводимостью
+
  
 
  ![bg right:30% fit](images/ok.png)
@@ -341,9 +348,11 @@ dvc diff
 ![bg right:40%](https://source.unsplash.com/wCIDfKBMDHE)
 
 ---
-# Слайд с PR
+<!-- _color: black -->
 
-Вставим здесь, что зато можно делать пуллреквесты с обучением моей модели и держать все под контролем
+# PR - это очень удобно
+
+![bg](images/PR.png)
 
 ---
 
@@ -368,11 +377,25 @@ mlflow.set_experiment("udemy-courses")
 ![bg](images/mlflow.png)
 
 ---
+
+##  MLFlow Tracking  - сравнение запусков
+
+![bg fit ](images/mlflow_compare.png)
+
+---
+
+##  MLFlow Tracking  - сравнение запусков
+
+![bg fit](images/mlflow_plots.png)
+
+---
+
 ### MLFLOW MODEL REGISTRY
 
 ![bg fit](https://www.mlflow.org/docs/latest/_images/oss_registry_3_overview.png)
 
 ---
+
 
 Как туда модель может попасть?
 
