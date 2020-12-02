@@ -377,11 +377,25 @@ mlflow.set_experiment("udemy-courses")
 ![bg](images/mlflow.png)
 
 ---
+
+##  MLFlow Tracking  - сравнение запусков
+
+![bg fit ](images/mlflow_compare.png)
+
+---
+
+##  MLFlow Tracking  - сравнение запусков
+
+![bg fit](images/mlflow_plots.png)
+
+---
+
 ### MLFLOW MODEL REGISTRY
 
 ![bg fit](https://www.mlflow.org/docs/latest/_images/oss_registry_3_overview.png)
 
 ---
+
 
 Как туда модель может попасть?
 
