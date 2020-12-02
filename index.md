@@ -348,11 +348,14 @@ dvc diff
 ![bg right:40%](https://source.unsplash.com/wCIDfKBMDHE)
 
 ---
-<!-- _color: black -->
+<!-- 
+_color: black
+_footer: ""
+ -->
 
 # PR - это очень удобно
 
-![bg](images/PR.png)
+![bg fi](images/PR.png)
 
 ---
 
@@ -386,24 +389,24 @@ mlflow.set_experiment("udemy-courses")
 
 ##  MLFlow Tracking  - сравнение запусков
 
-![bg fit](images/mlflow_plots.png)
+![w:1120](images/mlflow_plots.png)
 
 ---
 
-### MLFLOW MODEL REGISTRY
+# MLFlow Model Registry
 
-![bg fit](https://www.mlflow.org/docs/latest/_images/oss_registry_3_overview.png)
-
----
-
-
-Как туда модель может попасть?
-
-![bg fit](https://www.mlflow.org/docs/latest/_images/oss_registry_2_dialog.png)
+![w:1120](https://www.mlflow.org/docs/latest/_images/oss_registry_3_overview.png)
 
 ---
 
-Как туда модель может попасть?
+<!-- _color: black -->
+# Как туда попадает модель?
+
+![bg](https://www.mlflow.org/docs/latest/_images/oss_registry_2_dialog.png)
+
+---
+
+# Как туда попадает модель?
 
 ```python
 from mlflow.tracking import MlflowClient
@@ -464,7 +467,7 @@ result = client.create_model_version(
 ![bg 90%](images/mlflow-serve2.png)
 
 --- 
-
+<!-- _theme: -->
 ![bg fit](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/doc/source/images/seldon-core-high-level.jpg)
 
 ---
@@ -497,7 +500,7 @@ Sampling
 
 # Пример
 
-![width:1220](https://raw.githubusercontent.com/anodot/MLWatcher/master/IMAGES/concept_drift.png)
+![width:1120](https://raw.githubusercontent.com/anodot/MLWatcher/master/IMAGES/concept_drift.png)
 
 Метрики улетают когда цвета внезапно инвертируются
 
