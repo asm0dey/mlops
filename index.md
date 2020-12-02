@@ -41,14 +41,21 @@ footer {
 ![bg right:30% fit](https://plugins.jetbrains.com/files/12494/95821/icon/pluginIcon.svg)
 
 
-*_Big Data Tools — инструмент для упрощения жизни дата инжинеров_
+*_Big Data Tools — инструмент для упрощения жизни дата инженеров_
 
 ---
 
 # Михаил Марюфич
 
 
- - Machine Learning Engineer в OK.ru
+ - Закончил Мат-Мех СПбГУ и Computer Science Center
+
+- Machine Learning Engineer в OK.ru
+
+- Делаю МЛ штуки и внедряю их в продакшен
+
+- Увлекаюсь воспроизводимостью
+
  
 
  ![bg right:30% fit](images/ok.png)
