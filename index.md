@@ -348,9 +348,11 @@ dvc diff
 ![bg right:40%](https://source.unsplash.com/wCIDfKBMDHE)
 
 ---
-# Слайд с PR
+<!-- _color: black -->
 
-Вставим здесь, что зато можно делать пуллреквесты с обучением моей модели и держать все под контролем
+# PR - это очень удобно
+
+![bg](images/PR.png)
 
 ---
 
