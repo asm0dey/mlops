@@ -277,7 +277,7 @@ _color: #000000
 
 # Jupyter
 
-- Самый популярный (и остаточно удобный) инструмент Data Scientist'а
+- Самый популярный (и достаточно удобный) инструмент Data Scientist'а
 - Код вперемешку с Markdown
 - Написан и исполняется в непредсказуемом порядке
 
@@ -374,11 +374,10 @@ mlflow.set_experiment("udemy-courses")
 ```
 
 ---
-<!-- _color: black -->
 
 ## MLFlow Tracking 
 
-![bg](images/mlflow.png)
+![w:1120](images/mlflow.png)
 
 ---
 
@@ -387,10 +386,9 @@ mlflow.set_experiment("udemy-courses")
 ![bg fit ](images/mlflow_compare.png)
 
 ---
-
 ##  MLFlow Tracking  - сравнение запусков
 
-![bg fit](images/mlflow_plots.png)
+![w:1120](images/mlflow_plots.png)
 
 ---
 
@@ -401,13 +399,13 @@ mlflow.set_experiment("udemy-courses")
 ---
 
 
-Как туда модель может попасть?
+# Как модель там окажется?
 
 ![bg fit](https://www.mlflow.org/docs/latest/_images/oss_registry_2_dialog.png)
 
 ---
 
-Как туда модель может попасть?
+# Как модель там окажется?
 
 ```python
 from mlflow.tracking import MlflowClient
