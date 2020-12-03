@@ -352,11 +352,13 @@ dvc diff
 ![bg right:40%](https://source.unsplash.com/wCIDfKBMDHE)
 
 ---
-<!-- _color: black -->
+<!-- _color: black
+_footer: ""
+ -->
 
 # PR - это очень удобно
 
-![bg](images/PR.png)
+![bg brightness:90%](images/PR.png)
 
 ---
 
@@ -366,12 +368,7 @@ dvc diff
 
 # Easy
 
-```python
-mlflow.sklearn.autolog()
-remote_server_uri = "http://127.0.0.1:5000"
-mlflow.set_tracking_uri(remote_server_uri)
-mlflow.set_experiment("udemy-courses")
-```
+![w:1120](images/mlflow_api.png)
 
 ---
 
